@@ -118,8 +118,20 @@ O projeto faz parte de um **Teste de Sincronia (PTS-Q425-001)**, com duração p
 │   ├── core/
 │   ├── models/
 │   ├── public/
+│   │  ├── index.php
+│   │  └── .htaccess
+│   ├── vendor/
+│   ├── composer.json
 │   └── .env
 ├── client/
+│   ├── assets/
+│   │  ├── img/
+│   │  ├── js/
+│   │  └── css/
+│   ├── components/
+│   ├── pages/
+│   │  ├── backoffice/
+│   │  └── usuarios/
 └── README.md
 ```
 
@@ -131,7 +143,7 @@ O projeto faz parte de um **Teste de Sincronia (PTS-Q425-001)**, com duração p
 | Backend & BD          | Rotas, Autenticação, CRUD | Dia 5 |
 | Frontend & Integração | Telas + API               | Dia 6 |
 | Testes & Entrega      | Protótipo funcional       | Dia 7 |
-| Documentação          | FCP + README              | Dia 7 |
+| Documentação          | Arquivos em md            | Dia 7 |
 
 ---
 
