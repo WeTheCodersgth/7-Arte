@@ -113,26 +113,53 @@ O projeto faz parte de um **Teste de Sincronia (PTS-Q425-001)**, com duração p
 
 ```
 ├── server/
-│   ├── controllers/
-│   ├── config/
-│   ├── core/
-│   ├── models/
+│   ├── Controllers/
+│   ├── Config/
+│   │   ├── app.php
+│   │   └── database.php
+│   ├── Core/
+│   │   ├── Request.php
+│   │   ├── App.php
+│   │   ├── Response.php
+│   │   ├── Router.php
+│   │   ├── Controller.php
+│   │   ├── Model.php
+│   │   └── Connection.php
+│   ├── Models/
 │   ├── public/
-│   │  ├── index.php
-│   │  └── .htaccess
+│   │   ├── index.php
+│   │   └── .htaccess
 │   ├── vendor/
 │   ├── composer.json
 │   └── .env
 ├── client/
 │   ├── assets/
-│   │  ├── img/
-│   │  ├── js/
-│   │  └── css/
+│   │   ├── img/
+│   │   ├── js/
+│   │   └── css/
 │   ├── components/
+│   │   ├── header
+│   │   ├── footer
+│   │   ├── backoffice/
+│   │   │   ├── sidebar
+│   │   │   ├── cadastrar
+│   │   │   ├── alterar
+│   │   │   ├── deletar
+│   │   │   └── visualizar
+│   │   └── usuarios/
+│   │       ├── player
+│   │       ├── download
+│   │       ├── comentario
+│   │       └── avaliacoes
 │   ├── pages/
-│   │  ├── backoffice/
-│   │  └── usuarios/
+│   │   ├── backoffice/
+│   │   │   └── painel
+│   │   └── usuarios/
+│   │       ├── home
+│   │       ├── detalhes
+│   │       └── player
 └── README.md
+
 ```
 
 ## Marcos do Desenvolvimento
