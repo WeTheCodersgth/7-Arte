@@ -166,13 +166,13 @@ O projeto faz parte de um **Teste de Sincronia (PTS-Q425-001)**, com duração p
 
 ## Marcos do Desenvolvimento
 
-| Fase                  | Entrega                   | Data  |
-| --------------------- | ------------------------- | ----- |
-| Setup e Arquitetura   | Estrutura base + Git      | Dia 1 |
-| Backend & BD          | Rotas, Autenticação, CRUD | Dia 5 |
-| Frontend & Integração | Telas + API               | Dia 6 |
-| Testes & Entrega      | Protótipo funcional       | Dia 7 |
-| Documentação          | Arquivos em md            | Dia 7 |
+| Fase                  | Entrega                   | Encaixe  |
+| --------------------- | ------------------------- | -------- |
+| Setup e Arquitetura   | Estrutura base + Git      | Dia 1    |
+| Backend & BD          | Rotas, Autenticação, CRUD | Dia 5    |
+| Frontend & Integração | Telas + API               | Dia 6    |
+| Testes & Entrega      | Protótipo funcional       | Dia 7    |
+| Documentação          | Arquivos em md            | Dia 7    |
 
 ---
 
