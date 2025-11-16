@@ -1,6 +1,6 @@
 <?php
 /** @var \Bramus\Router\Router $router Instância do router vinda da classe Aplicacao */
-$router = $this->roteador->getInstancia();
+$router = $this->router->getInstancia();
 
 // Define a base path para a config
 $router->setBasePath('/config');
