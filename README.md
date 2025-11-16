@@ -126,6 +126,8 @@ O projeto faz parte de um **Teste de Sincronia (PTS-Q425-001)**, com duração p
 │   │   ├── Model.php
 │   │   └── Connection.php
 │   ├── Models/
+│   ├── Services/
+│   ├── Helpers/
 │   ├── public/
 │   │   ├── index.php
 │   │   └── .htaccess
