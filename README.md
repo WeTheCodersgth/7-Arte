@@ -1,6 +1,6 @@
 # 7ª Arte — Plataforma de Streaming (PWA)
 
-![Banner do Projeto](./assets/img/logo.png)
+![Banner do Projeto](./cliente/assets/img/logo.png)
 
 **7ª Arte** é um protótipo funcional de uma plataforma de streaming de filmes desenvolvido como projeto interno da **We, The Coders**. O objetivo principal é testar sincronia, performance, colaboração e capacidade técnica da equipa dentro de um ciclo curto de desenvolvimento.
 
