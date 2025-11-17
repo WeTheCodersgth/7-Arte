@@ -1,0 +1,106 @@
+import { Conteudo } from './types';
+import { baseUrlPoster, baseUrlImagemFundo, baseUrlVideo } from './filmes';
+
+export const seriesParaMaratonar: Conteudo[] = [
+    { 
+        id: 19, 
+        tipo: 'series', 
+        titulo: "Breaking Bad", 
+        avaliacao: 9.5, 
+        poster: baseUrlPoster + "/ggFHVNu6YYI5L9pCfOacjizRGt.jpg", 
+        ano: 2008, 
+        duracao: "5 Temporadas", 
+        generos: ["Drama", "Crime", "Thriller"], 
+        descricao: "Um professor de química do ensino médio diagnosticado com câncer de pulmão inoperável passa a produzir e vender metanfetamina para garantir o futuro de sua família.", 
+        imagemFundo: baseUrlImagemFundo + "/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
+        urlTrailer: "https://www.youtube.com/embed/HhesaQXLuRY",
+        urlVideo: baseUrlVideo + "BigBuckBunny.mp4",
+        temporadas: [
+            {
+                numeroTemporada: 1,
+                episodios: [
+                    { numeroEpisodio: 1, titulo: "Pilot", descricao: "Diagnosticado com câncer, Walt decide cozinhar metanfetamina.", duracao: "58min", miniatura: "https://image.tmdb.org/t/p/w500/zTjoAjfbdCVG4f5I5yB1vTGPt5V.jpg" },
+                    { numeroEpisodio: 2, titulo: "Cat's in the Bag...", descricao: "Walt e Jesse têm que se livrar de dois corpos.", duracao: "48min", miniatura: "https://image.tmdb.org/t/p/w500/pQRiwyruDUy1dndlnX1ubA5msa.jpg" },
+                    { numeroEpisodio: 3, titulo: "...And the Bag's in the River", descricao: "Walt se pergunta se deve matar Krazy-8.", duracao: "48min", miniatura: "https://image.tmdb.org/t/p/w500/u3pwxqrI4Yg5z1B2a8O3SNDZc2h.jpg" },
+                ]
+            },
+            {
+                numeroTemporada: 2,
+                episodios: [
+                    { numeroEpisodio: 1, titulo: "Seven Thirty-Seven", descricao: "Walt e Jesse percebem o quão louco Tuco é.", duracao: "47min", miniatura: "https://image.tmdb.org/t/p/w500/i2Y2B9Wde23ypr3oNsjW0S4prVf.jpg" },
+                    { numeroEpisodio: 2, titulo: "Grilled", descricao: "O comportamento instável de Tuco coloca Walt e Jesse em perigo.", duracao: "48min", miniatura: "https://image.tmdb.org/t/p/w500/c7aWBoEde0iqb39g4VlXm5aBARq.jpg" },
+                ]
+            }
+        ]
+    },
+    {
+        id: 20,
+        tipo: 'series',
+        titulo: "Game of Thrones",
+        avaliacao: 9.2,
+        poster: baseUrlPoster + "/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+        ano: 2011,
+        duracao: "8 Temporadas",
+        generos: ["Ficção Científica", "Fantasia", "Drama", "Ação"],
+        descricao: "Nove famílias nobres lutam pelo controle das terras míticas de Westeros, enquanto um antigo inimigo retorna após estar adormecido por milênios.",
+        imagemFundo: baseUrlImagemFundo + "/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+        urlTrailer: "https://www.youtube.com/embed/KPLWWIOCOOQ",
+        urlVideo: baseUrlVideo + "Sintel.mp4",
+    },
+    {
+        id: 21,
+        tipo: 'series',
+        titulo: "Stranger Things",
+        avaliacao: 8.6,
+        poster: baseUrlPoster + "/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+        ano: 2016,
+        duracao: "4 Temporadas",
+        generos: ["Ficção Científica", "Fantasia", "Terror", "Mistério"],
+        descricao: "Quando um garoto desaparece, sua mãe, um chefe de polícia e seus amigos devem enfrentar forças sobrenaturais aterrorizantes para trazê-lo de volta.",
+        imagemFundo: baseUrlImagemFundo + "/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+        urlTrailer: "https://www.youtube.com/embed/b9EkMc79ZSU",
+        urlVideo: baseUrlVideo + "ForBiggerEscapes.mp4",
+    },
+    {
+        id: 22,
+        tipo: 'series',
+        titulo: "The Office",
+        avaliacao: 8.5,
+        poster: baseUrlPoster + "/qWnJzyZhyy74gjpSjIXWmuk0ifX.jpg",
+        ano: 2005,
+        duracao: "9 Temporadas",
+        generos: ["Comédia"],
+        descricao: "Um documentário sobre um grupo de funcionários de escritório típicos, onde o dia de trabalho consiste em confrontos de ego, comportamento inadequado e tédio.",
+        imagemFundo: baseUrlImagemFundo + "/qWnJzyZhyy74gjpSjIXWmuk0ifX.jpg",
+        urlTrailer: "https://www.youtube.com/embed/gO8N3L_aERg",
+        urlVideo: baseUrlVideo + "ForBiggerFun.mp4",
+    },
+    {
+        id: 23,
+        tipo: 'series',
+        titulo: "Friends",
+        avaliacao: 8.4,
+        poster: baseUrlPoster + "/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg",
+        ano: 1994,
+        duracao: "10 Temporadas",
+        generos: ["Comédia", "Romance"],
+        descricao: "A vida pessoal e profissional de seis amigos de 20 e poucos anos que vivem em Manhattan.",
+        imagemFundo: baseUrlImagemFundo + "/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg",
+        urlTrailer: "https://www.youtube.com/embed/IEEbUzffzrk",
+        urlVideo: baseUrlVideo + "ForBiggerJoyrides.mp4",
+    },
+    {
+        id: 24,
+        tipo: 'series',
+        titulo: "Peaky Blinders",
+        avaliacao: 8.8,
+        poster: baseUrlPoster + "/i0uajcHH9yogXMfDHpOXexIukG9.jpg",
+        ano: 2013,
+        duracao: "6 Temporadas",
+        generos: ["Drama", "Crime"],
+        descricao: "Uma saga de uma família de gângsteres ambientada na Inglaterra de 1900, centrada em uma gangue que costura lâminas de barbear nas abas de suas boinas.",
+        imagemFundo: baseUrlImagemFundo + "/i0uajcHH9yogXMfDHpOXexIukG9.jpg",
+        urlTrailer: "https://www.youtube.com/embed/oVzVdvGUnqw",
+        urlVideo: baseUrlVideo + "WeAreGoingOnBullrun.mp4",
+    },
+    ];

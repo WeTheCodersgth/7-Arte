@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7ª Arte — Plataforma de Streaming</title>
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-background': '#0D0D0D',
+              'brand-primary': '#FFFFFF',
+              'brand-secondary': '#A5A5A5',
+              'brand-accent': '#E50914', 
+            },
+            fontFamily: {
+              'sans': ['Poppins', 'sans-serif'],
+              'display': ['Cinzel', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-brand-background text-brand-primary font-sans">
+    <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
+</body>
+</html>
